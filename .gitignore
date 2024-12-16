@@ -43,3 +43,8 @@ next-env.d.ts
 
 # Django migrations
 /quiz_backend/*/migrations/
+
+/quiz_backend/*
+!/quiz_backend/manage.py
+!/quiz_backend/requirements.txt
+!/quiz_backend/app_name/  # Replace 'app_name' with your actual app directory name
