@@ -38,3 +38,13 @@ python manage.py createsuperuser
 ```
 
 Then, navigate to [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) and log in with your superuser credentials.
+
+## Output
+
+The application consists of three main pages:
+
+1. Homepage
+2. Quiz
+3. Result
+
+![Quiz Application Screenshot](path/to/your/image.png)
