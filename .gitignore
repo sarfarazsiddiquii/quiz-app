@@ -38,6 +38,8 @@ __pycache__/
 *.sqlite3
 *.log
 *.env
+quiz_backend/db.sqlite3
+quiz_backend/quiz/__pycache__
 
 # Python virtual environment
 venv/
