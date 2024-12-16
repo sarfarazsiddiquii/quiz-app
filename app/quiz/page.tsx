@@ -18,7 +18,7 @@ export default function QuizPage() {
   const [score, setScore] = useState(0);
   const [answeredQuestions, setAnsweredQuestions] = useState([]);
   const [visitedQuestions, setVisitedQuestions] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(600); // 10 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(120);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const router = useRouter();
@@ -32,9 +32,7 @@ export default function QuizPage() {
         return res.json();
       })
       .then((data) => {
-        // Randomly shuffle the questions
         const shuffledQuestions = data.sort(() => 0.5 - Math.random());
-        // Select the first 5 questions
         const selectedQuestions = shuffledQuestions.slice(0, 5);
         setQuestions(selectedQuestions);
         setAnsweredQuestions(new Array(selectedQuestions.length).fill(false));
