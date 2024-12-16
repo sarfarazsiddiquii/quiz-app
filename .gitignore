@@ -1,50 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
 
-# testing
-/coverage
+# TypeScript cache
+*.tsbuildinfo
 
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
+# Logs
+logs
+*.log
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
+# Build outputs
+dist/
+build/
 
-# vercel
-.vercel
+# Next.js
+.next/
+out/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# dotenv environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Django
-/quiz_backend/*.pyc
-/quiz_backend/*.pyo
-/quiz_backend/__pycache__/
-/quiz_backend/db.sqlite3
+# Backend (Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite*
+*.sqlite3
+*.log
+*.env
 
-# Django migrations
-/quiz_backend/*/migrations/
+# Python virtual environment
+venv/
+.env/
 
-/quiz_backend/*
-!/quiz_backend/manage.py
-!/quiz_backend/requirements.txt
-!/quiz_backend/app_name/  # Replace 'app_name' with your actual app directory name
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
