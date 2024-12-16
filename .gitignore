@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Django
+/quiz_backend/*.pyc
+/quiz_backend/*.pyo
+/quiz_backend/__pycache__/
+/quiz_backend/db.sqlite3
+
+# Django migrations
+/quiz_backend/*/migrations/
