@@ -44,7 +44,13 @@ Then, navigate to [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) and
 The application consists of three main pages:
 
 1. Homepage
-2. Quiz
-3. Result
+![image](https://github.com/user-attachments/assets/0642ccee-69df-416e-a45b-a54ced500ead)
 
-![Quiz Application Screenshot](path/to/your/image.png)
+2. Quiz
+![image](https://github.com/user-attachments/assets/8d937840-6b1b-4013-94ca-a42dc2d844c2)
+
+3. Result
+![image](https://github.com/user-attachments/assets/a6989d0d-badd-4660-beda-1a11c57418af)
+
+
+
